@@ -46,7 +46,7 @@ export async function getServerSideProps({ params, locale }) {
   // fetch product
   // const info = "salom";
   const info = {
-    seo_home_title: "Home",
+    seo_home_title: "Yusolve",
     seo_home_keywords: "",
     seo_home_description: "",
   };

@@ -1,0 +1,33 @@
+/* @import url(./font.css); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* if you use Google fonts, first write link(preload) in html then write fontFamily: ["font" , sans-serif] in taildinwcss */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 1340px) {
+  .container {
+    padding: 0 ;
+  }
+}

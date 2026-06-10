@@ -52,6 +52,13 @@ body {
   top: 0;
   left: 0;
   opacity: 0.15;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Banner uchun ::after ni o'chirish */
+#banner::after {
+  display: none !important;
 }
 
 .swal2-confirm.swal2-styled {

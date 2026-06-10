@@ -9,7 +9,7 @@ import {
 const stats = [
   { Icon: IconTruckDelivery,  num: "150+", label: "Carriers Served",     desc: "Active trucking companies trust YUSOLVE" },
   { Icon: IconCertificate,    num: "98%",  label: "DOT Audit Pass Rate", desc: "Of our clients pass audits with zero findings" },
-  { Icon: IconCalendarStats,  num: "10+",  label: "Years Experience",    desc: "Combined industry expertise in compliance" },
+  { Icon: IconCalendarStats,  num: "6+",  label: "Years Experience",    desc: "Combined industry expertise in compliance" },
   { Icon: IconMapPin,         num: "48",   label: "States Covered",      desc: "All 48 contiguous US states" },
 ];
 
